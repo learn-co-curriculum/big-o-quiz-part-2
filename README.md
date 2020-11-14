@@ -79,10 +79,10 @@ end
 </pre>
 
 - Time: O(n), Space: O(n)
-  - Exactly! The number of frames placed on the stack is equal to the length of the array, so this function runs in linear time and space. Remember, in the worst case, this procedure will recurse until the array is empty, and it will then start returning up the stack.
+  - Exactly! The number of frames placed on the stack is equal to the length of the array, so this function runs in linear time and space. Remember, in the worst case, this procedure will recurse until the array is empty, and it will then start returning up the stack. The maximum runtime is also linear, because the total number of frames will at most be the length of the array.
 - Time: O(n<sup>2</sup>), Space: O(n)
   - Not quite. It will use linear space, but it won't use quadratic time. Think about how many times the algorithm will recurse in the worst case - when the target isn't in the array.
 - Time: O(1), Space: O(1)
-  - Not really. This algorithm doesn't use constant space or time. Imagine the input array is `[1, 2, 3]` and the target is `4`. How many recursive calls will be made? How many frames will be placed on the stack?
+  - Not really. This algorithm doesn't use constant space or time. Imagine the input array is `[1, 2, 3]` and the target is `4`. How many frames will be placed on the stack? How many recursive calls in total will be made? 
 - I don't know
   - Don't worry. With time and practice, it'll start to sink in.
